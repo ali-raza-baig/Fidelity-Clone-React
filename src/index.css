@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Home Page css  */
+.Hero-Section {
+
+    position: relative;
+    height: 450px;
+    background-image: url(hero.jpg);
+    clip-path: polygon(0 0,
+            100% 0,
+            100% 100%,
+            0 calc(100% - 5vw));
+}
+
+.About-Hero {
+    position: relative;
+    height: 450px;
+    background-image: url(/about.jpg);
+    clip-path: polygon(0 0,
+            100% 0,
+            100% 100%,
+            0 calc(100% - 5vw));
+}
