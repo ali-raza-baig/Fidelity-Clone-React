@@ -17,6 +17,7 @@ const Header = () => {
                     <Navbar.Link href="/about-us">
                         About
                     </Navbar.Link>
+                    <Navbar.Link href="/cloud-hosting">Hosting</Navbar.Link>
                     <Navbar.Link href="/team">Team</Navbar.Link>
                     <Navbar.Link href="/contact-us">Contact</Navbar.Link>
                 </Navbar.Collapse>

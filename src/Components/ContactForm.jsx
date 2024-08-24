@@ -3,7 +3,7 @@ const ContactForm = () => {
     return (
 
         <>
-            <div className="relative isolate bg-white">
+            <div className="relative isolate bg-white w-screen">
                 <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
                     <div className="flex flex-col justify-center items-center">
                         <h1 className="text-4xl font-extrabold mt-5">Connect with us</h1>
