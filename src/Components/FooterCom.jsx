@@ -16,27 +16,26 @@ const FooterCom = () => {
                         </div>
                         <div className="grid grid-cols-2 gap-8 sm:mt-6 sm:grid-cols-3 sm:gap-6 ">
                             <div>
-                                <Footer.Title title="about" />
+                                <Footer.Title title="Services" />
                                 <Footer.LinkGroup col className="text-red-400">
-                                    <Footer.Link href="#">Flowbite</Footer.Link>
-                                    <Footer.Link href="#">Tailwind CSS</Footer.Link>
-                                    <Footer.Link href="#">Tailwind CSS</Footer.Link>
+                                    <Footer.Link href="https://www.fidelity-group.co.uk/mobile-services/">Mobile</Footer.Link>
+                                    <Footer.Link href="https://www.fidelity-group.co.uk/billing-anvil/">Billing</Footer.Link>
+                                    <Footer.Link href="https://www.fidelity-group.co.uk/payments/">Payment</Footer.Link>
                                 </Footer.LinkGroup>
                             </div>
                             <div>
-                                <Footer.Title title="Follow us" />
+                                <Footer.Title title="Quick Links" />
                                 <Footer.LinkGroup col className="text-red-400">
-                                    <Footer.Link href="#">Github</Footer.Link>
-                                    <Footer.Link href="#">Discord</Footer.Link>
-                                    <Footer.Link href="#">Discord</Footer.Link>
+                                    <Footer.Link href="/about-us">About</Footer.Link>
+                                    <Footer.Link href="/contact-us">Contact Us</Footer.Link>
+                                    <Footer.Link href="https://www.fidelity-group.co.uk/terms-of-use/">Terms of Use</Footer.Link>
                                 </Footer.LinkGroup>
                             </div>
                             <div>
-                                <Footer.Title title="Legal" />
+                                <Footer.Title title="Support" />
                                 <Footer.LinkGroup col className="text-red-400">
-                                    <Footer.Link href="#">Privacy Policy</Footer.Link>
-                                    <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
-                                    <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
+                                    <Footer.Link href="https://fidelity.custservice.co/Login">Anvil Login</Footer.Link>
+                                    <Footer.Link href="https://www.fidelity-group.co.uk/cloud-fault/">Cloud Fault</Footer.Link>
                                 </Footer.LinkGroup>
                             </div>
                         </div>
