@@ -6,12 +6,20 @@ body {
     overflow-x: hidden;
 }
 
+.slick-list {
+    margin: 0 -5px;
+}
+
+.slick-slide>div {
+    padding: 0 5px;
+}
+
 /* Home Page css  */
 .Hero-Section {
 
     position: relative;
     height: 450px;
-    background-image: url(hero.jpg);
+    background-image: url(/public/hero.jpg);
     clip-path: polygon(0 0,
             100% 0,
             100% 100%,
